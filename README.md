@@ -4,14 +4,14 @@
 
 **Jobin** é uma plataforma digital projetada para apoiar jovens na superação da inatividade e no desenvolvimento de suas habilidades, conectando-os a oportunidades educacionais, empreendedoras e de inclusão social. A plataforma utiliza princípios de **Human-Centered Design** da ONU para criar soluções personalizadas, permitindo que os jovens retome seus estudos, inicie empreendimentos ou alcance a autonomia profissional.
 
-O objetivo é criar um ambiente interativo e intuitivo onde os jovens possam acessar conteúdos, mentorias e ferramentas para ajudá-los a se desenvolverem e a conquistar seu espaço no mercado de trabalho ou no empreendedorismo.
+O objetivo é criar um ambiente interativo e intuitivo onde os jovens possam acessar conteúdos e ferramentas para ajudá-los a se desenvolverem nos seus estudos, a conquistar seu espaço no mercado de trabalho e/ou no empreendedorismo.
 
 ## Objetivo do Projeto
 
 A plataforma visa proporcionar:
 
 - Acesso a **cursos e treinamentos** em áreas-chave como empreendedorismo, habilidades profissionais e educação.
-- Conexão com **mentores** que orientem os jovens em sua jornada de desenvolvimento.
+- Conexão com **Contratantes** que impulsionam os jovens em sua jornada de desenvolvimento no mercado de trabalho.
 - Ferramentas para o **acompanhamento do progresso** do usuário, ajudando-os a estabelecer e alcançar suas metas.
 - Um **ambiente interativo** e fácil de usar, que possibilite a integração de tecnologias de ponta e personalização de soluções.
 
@@ -38,9 +38,8 @@ A plataforma será construída utilizando as seguintes tecnologias:
 
 ## Funcionalidades da Plataforma
 
-- **Cadastro e login de usuários**: Com autenticação segura via JWT.
-- **Dashboard de progresso**: Acompanhamento visual do desenvolvimento dos jovens, com indicadores de avanço em cursos, mentorias e projetos.
-- **Catálogo de cursos**: Acesso a conteúdos educacionais e tutoriais sobre empreendedorismo e desenvolvimento pessoal.
-- **Sistema de mentoria**: Conexão entre usuários e mentores para orientações e aconselhamentos.
-- **Fórum e comunidade**: Espaço para interação entre os jovens, troca de experiências e apoio mútuo.
-- **Notificações e alertas**: Lembretes sobre novos cursos, interações e progresso nas atividades.
+- **Cadastro e login de usuários**: Sistema de autenticação seguro utilizando JWT, garantindo a proteção dos dados e a privacidade dos usuários.
+- **Dashboard de progresso**: Interface interativa que permite aos jovens acompanhar seu desenvolvimento de avanço em cursos.
+- **Catálogo de cursos**: Acesso a uma variedade de conteúdos educacionais e materiais focados em empreendedorismo, habilidades profissionais e desenvolvimento pessoal.
+- **Oportunidades profissionais**: Plataforma para conectar jovens profissionais a oportunidades de emprego, ajudando-os a encontrar vagas e crescer no mercado de trabalho.
+- **Chat interativo**: Canal de comunicação entre contratantes e profissionais, permitindo a troca de informações importantes e o esclarecimento de dúvidas sobre os serviços.
