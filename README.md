@@ -32,9 +32,6 @@ A plataforma será construída utilizando as seguintes tecnologias:
 - **Autenticação**:
   - **JWT (JSON Web Tokens)**: Para autenticação e autorização de usuários de maneira segura.
 
-- **Outras ferramentas**:
-  - **Docker**: Para facilitar o processo de desenvolvimento e deployment da aplicação.
-  - **Heroku/AWS**: Para hospedagem da aplicação.
 
 ## Funcionalidades da Plataforma
 
