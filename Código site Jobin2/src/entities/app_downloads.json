@@ -1,0 +1,49 @@
+
+{
+  "name": "app_downloads",
+  "options": {
+    "validator": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": ["platform", "action", "createdAt"],
+        "properties": {
+          "platform": {
+            "bsonType": "string",
+            "enum": ["android", "ios", "web"],
+            "description": "Plataforma do download"
+          },
+          "action": {
+            "bsonType": "string",
+            "enum": ["click", "download", "install"],
+            "description": "Ação realizada"
+          },
+          "source": {
+            "bsonType": "string",
+            "enum": ["home", "features", "contact", "direct"],
+            "description": "Página de origem do clique"
+          },
+          "userAgent": {
+            "bsonType": "string",
+            "description": "User agent do navegador"
+          },
+          "ip": {
+            "bsonType": "string",
+            "description": "IP do usuário (anonimizado)"
+          },
+          "sessionId": {
+            "bsonType": "string",
+            "description": "ID da sessão"
+          },
+          "createdAt": {
+            "bsonType": "string",
+            "title": "datetime",
+            "description": "Data da ação"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "validationLevel": "moderate",
+    "validationAction": "warn"
+  }
+}
