@@ -1,118 +1,201 @@
-🟣 Jobin - Soluções Criativas para Jovens em Transformação
+# 🟣 Jobin - Soluções Criativas para Jovens em Transformação
 
-Uma plataforma digital criada por alunos da UFRPE no projeto Mundo 2, com o objetivo de apoiar jovens na retomada dos estudos, no desenvolvimento de habilidades e na entrada no mercado de trabalho, por meio de ferramentas educacionais, oportunidades profissionais e soluções centradas no ser humano.
+Uma plataforma digital criada por alunos da **UFRPE** para apoiar jovens na retomada dos estudos, no desenvolvimento de habilidades e na entrada no mercado de trabalho — por meio de ferramentas educacionais, oportunidades profissionais e soluções centradas no ser humano.
 
 ---
 
-✨ Resumo do Projeto
+## ✨ Resumo do Projeto
 
-O Jobin é uma plataforma web moderna, responsiva e inclusiva, projetada com Design Centrado no Humano (HCD) e pensada para jovens da Região Metropolitana do Recife (RMR). Seu objetivo é combater a inatividade juvenil oferecendo acesso a cursos, oportunidades de emprego, ferramentas de acompanhamento e suporte ao desenvolvimento pessoal e profissional.
-
+O **Jobin** é uma plataforma web moderna, responsiva e inclusiva, projetada com **Design Centrado no Humano (HCD)** e pensada para jovens da **Região Metropolitana do Recife (RMR)**.  
+Seu objetivo é combater a inatividade juvenil oferecendo acesso a cursos, oportunidades de emprego, ferramentas de acompanhamento e suporte ao desenvolvimento pessoal e profissional.  
 A plataforma conecta jovens a contratantes, capacitações, trilhas de estudo e funcionalidades que estimulam autonomia e geração de renda local.
 
 ---
 
-🎯 Objetivos da Plataforma
+## 🎯 Objetivos da Plataforma
 
-Capacitar jovens com cursos, treinamentos e trilhas de desenvolvimento.
-Conectar profissionais e contratantes, facilitando o acesso ao mercado.
-Acompanhar o progresso e evolução dos usuários.
-Criar um espaço interativo, intuitivo e motivador.
-Promover inclusão social e desenvolvimento regional.
-
----
-
-🌐 Site Oficial
-
-👉 https://jobin-website.lumi.ing/
+- Capacitar jovens com cursos, treinamentos e trilhas de desenvolvimento.  
+- Conectar profissionais e contratantes, facilitando o acesso ao mercado.  
+- Acompanhar o progresso e evolução dos usuários.  
+- Criar um espaço interativo, intuitivo e motivador.  
+- Promover inclusão social e desenvolvimento regional.
 
 ---
 
-🚀 Funcionalidades Principais
+## 🌐 Site Oficial
 
-🔐 Autenticação e Segurança
-
-Login e logout com Lumi Authentication System
-Sessão com timeout automático (15 min)
-JWT, proteção de rotas, sanitização e rate limiting
-CSP Headers e HTTPS forçado
+👉 [https://jobin-website.lumi.ing/](https://jobin-website.lumi.ing/)
 
 ---
 
-📊 Dashboard de Progresso
+## 🚀 Funcionalidades Principais
 
-Acompanhamento de cursos e trilhas evolutivas
-Metas e indicadores de progresso
+### 🔐 Autenticação e Segurança
+- Login e logout com **Lumi Authentication System**  
+- Sessão com timeout automático (15 min)  
+- JWT, proteção de rotas, rate limiting e sanitização  
+- CSP Headers e HTTPS forçado  
+
+### 📊 Dashboard de Progresso
+- Acompanhamento de cursos e trilhas evolutivas  
+- Indicadores de avanço e metas pessoais  
+
+### 🎓 Catálogo de Capacitações
+- Cursos de:
+  - Empreendedorismo  
+  - Habilidades técnicas e sociais  
+  - Desenvolvimento pessoal e profissional  
+
+### 💼 Oportunidades Profissionais
+- Conexão entre jovens e empresas contratantes  
+- Sistema de propostas, aceite e contratos  
+
+### 💬 Chat Interativo *(em desenvolvimento)*
+- Comunicação entre profissionais e contratantes  
+- Troca de mensagens e informações sobre serviços  
+
+### 🏅 Gamificação
+- Pontos, badges, rankings e conquistas  
+- Engajamento e incentivo contínuo  
+
+### 📈 Analytics do Mercado
+- Integração com **Streamlit Dashboard**  
+- **Novo CAGED** — análise atualizada do mercado da RMR  
+
+### 🔔 Notificações em Tempo Real
+- Alertas personalizados  
+- Atualizações de cursos, oportunidades e mensagens  
+
+### 🧩 Acessibilidade
+- Ajuste de contraste  
+- Controle de tamanho de fonte  
+- Leitor de tela e navegação inclusiva  
+
+### 🛠️ Painel Administrativo (RBAC)
+- Gerenciamento completo de usuários  
+- Controle de conteúdo e permissões  
 
 ---
 
-🎓 Catálogo de Capacitações
+## 🧪 Tech Stack
 
-Cursos e trilhas nas áreas de:
+### Frontend
+- React + TypeScript *(strict mode)*  
+- Vite  
+- Tailwind CSS  
+- **Design System:**
+  - Material Design  
+  - Flat Design  
+  - Paleta: roxo | lilás | branco  
 
-Habilidades técnicas e sociais
-Desenvolvimento pessoal e profissional
+### Backend
+- Lumi SDK (Auth, MongoDB, File Upload, Email, Analytics)  
+- Streamlit Dashboard  
+- Integração com dados do **Novo CAGED**
 
-💼 Oportunidades Profissionais
+---
 
-Conexão entre jovens e contratantes
-Sistema de propostas, aceite e contratos
+## 📁 Estrutura do Projeto
 
-💬 Chat Interativo (em desenvolvimento)
+/src
+  /components         # Componentes reutilizáveis (Navbar, Footer, etc.)
+  /pages              # Páginas da aplicação (Home, Analytics, Features...)
+  /hooks              # Custom hooks (useAuth, useContracts, etc.)
+  /utils              # Segurança, sanitização, rate limiter
+  /lib                # Configuração do cliente Lumi SDK
+  /entities           # Schemas e tipos das entidades do banco
+/public               # Arquivos estáticos
+.lumi                 # Documentação interna do projeto
 
-Comunicação entre profissionais e contratantes
-Troca de mensagens e informações sobre serviços
+---
 
-🏅 Gamificação
 
-Sistema de pontos
-Badges
-Rankings
-Conquistas
+---
 
-📈 Analytics do Mercado
+## ✅ Funcionalidades Atuais
 
-Integração com Streamlit Dashboard
-Dados e análises do Novo CAGED para a RMR
+- **🔐 Autenticação Completa**  
+  - `src/hooks/useAuth.ts`  
+  - `src/hooks/useSessionTimeout.ts`  
+  - `src/pages/Login.tsx`  
 
-🔔 Notificações em Tempo Real
+- **👥 Perfis de Usuário (Profissional e Contratante)**  
+  - `src/pages/ProfessionalProfile.tsx`  
+  - `src/pages/ContractorProfile.tsx`  
 
-Alertas 
-Atualizações automáticas
+- **🎓 Sistema de Capacitações**  
+  - `src/pages/ExploreCapacitations.tsx`  
+  - `src/pages/MyCapacitations.tsx`  
 
-🧩 Acessibilidade
+- **🏅 Gamificação**  
+  - `src/pages/Gamification.tsx`  
 
-Controle de contraste
-Ajuste de tamanho da fonte
+- **📈 Analytics e Mercado da RMR**  
+  - `src/pages/Analytics.tsx`  
 
-🛠️ Painel Administrativo (RBAC)
+- **📄 Gestão de Contratos**  
+  - `src/pages/ContractManagement.tsx`  
+  - `src/hooks/useContracts.ts`  
 
-Controle de permissões
-Gestão de usuários
-Gestão de conteúdo
+- **💬 Sistema de Mensagens (em desenvolvimento)**  
+  - `src/pages/Messages.tsx`  
 
-🧪 Tech Stack
+- **🔔 Notificações em Tempo Real**  
+  - `src/pages/Notifications.tsx`  
+  - `src/hooks/useNotifications.ts`  
 
-Frontend
+- **🧩 Acessibilidade**  
+  - `src/pages/AccessibilitySettings.tsx`  
 
-React + TypeScript (strict mode)
-Vite
-Tailwind CSS
+- **🛠️ Painel Administrativo (RBAC)**  
+  - `src/pages/AdminPanel.tsx`  
+  - `src/hooks/useAdminAuth.ts`  
 
-Design System:
+- **📬 Contato e Newsletter**  
+  - `src/pages/Contact.tsx`  
+  - `src/hooks/useContactForm.ts`  
+  - `src/components/NewsletterSignup.tsx`  
+  - `src/hooks/useNewsletter.ts`  
 
-Material Design
-Flat Design
-Paleta: roxo | lilás | branco
+- **📱 Rastreamento de Downloads**  
+  - `src/hooks/useAppDownload.ts`  
 
-Backend / Infra
+- **🔒 Segurança Avançada**  
+  - `src/utils/security.ts`  
+  - `src/utils/rateLimiter.ts`  
 
-Lumi SDK
-Autenticação
-MongoDB
-File Upload
-Email
+- **📱 Responsividade Total**
+  - *Mobile-first*  
+  - `src/index.css`
 
-Analytics
+---
 
-Streamlit Dashboard (Analytics do CAGED)
+## 🛠️ Como Rodar o Projeto Localmente
+
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/jobin.git
+
+# 2. Acesse o diretório
+cd jobin
+
+# 3. Instale as dependências
+npm install
+
+# 4. Rode o projeto
+npm run dev
+
+---
+
+
+---
+
+## 📄 Licença
+
+Este projeto é distribuído sob a **Licença MIT**.  
+Sinta-se livre para usar, modificar e contribuir.
+
+---
+
+## 💜 Desenvolvido com propósito para a juventude da RMR
+
+O **Jobin** é uma iniciativa que acredita no potencial transformador dos jovens e na tecnologia como ponte para o futuro.
