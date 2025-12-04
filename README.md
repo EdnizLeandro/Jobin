@@ -172,29 +172,3 @@ A plataforma conecta jovens a contratantes, capacitações, trilhas de estudo e 
 
 ## 🛠️ Como Rodar o Projeto Localmente
 
-
-
-# 1. Clone o repositório
-git clone https://github.com/seu-usuario/jobin.git
-
-# 2. Acesse o diretório
-cd jobin
-
-# 3. Instale as dependências
-npm install
-
-# 4. Rode o projeto
-npm run dev
-
----
-
-## 📄 Licença
-
-Este projeto é distribuído sob a **licença MIT**.  
-Sinta-se livre para usar, modificar e contribuir.
-
----
-
-## 💜 Desenvolvido com propósito para a juventude da RMR
-
-O **Jobin** é uma iniciativa que acredita no potencial transformador dos jovens e na tecnologia como ponte para o futuro.
