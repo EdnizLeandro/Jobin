@@ -98,14 +98,14 @@ A plataforma conecta jovens a contratantes, capacitações, trilhas de estudo e 
 ## 📁 Estrutura do Projeto
 
 /src
-  /components         # Componentes reutilizáveis (Navbar, Footer, etc.)
-  /pages              # Páginas (Home, Features, Analytics, etc.)
-  /hooks              # Custom hooks (useAuth, useContracts, etc.)
-  /utils              # Segurança, rate limiter, sanitização
-  /lib                # Configuração do cliente Lumi SDK
-  /entities           # Schemas JSON do banco
-/public               # Arquivos estáticos
-.lumi                 # Documentação interna
+/components # Componentes reutilizáveis (Navbar, Footer, etc.)
+/pages # Páginas (Home, Features, Analytics, etc.)
+/hooks # Custom hooks (useAuth, useContracts, etc.)
+/utils # Segurança, rate limiter, sanitização
+/lib # Configuração do cliente Lumi SDK
+/entities # Schemas JSON do banco
+/public # Arquivos estáticos
+.lumi # Documentação interna
 
 ---
 
