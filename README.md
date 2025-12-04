@@ -1,6 +1,6 @@
 # 🟣 Jobin - Soluções Criativas para Jovens em Transformação
 
-Uma plataforma digital criada por alunos da **UFRPE** para apoiar jovens na retomada dos estudos, no desenvolvimento de habilidades e na entrada no mercado de trabalho — por meio de ferramentas educacionais, oportunidades profissionais e soluções centradas no ser humano.
+Uma plataforma digital criada por alunos da **UFRPE** em um projeto (Mundo 2) para apoiar jovens na retomada dos estudos, no desenvolvimento de habilidades e na entrada no mercado de trabalho por meio de ferramentas educacionais, oportunidades profissionais e soluções centradas no ser humano.
 
 ---
 
@@ -60,7 +60,7 @@ A plataforma conecta jovens a contratantes, capacitações, trilhas de estudo e 
 
 ### 📈 Analytics do Mercado
 - Integração com **Streamlit Dashboard**  
-- **Novo CAGED** — análise atualizada do mercado da RMR  
+- **Novo CAGED** - análise atualizada do mercado da RMR  
 
 ### 🔔 Notificações em Tempo Real
 - Alertas personalizados  
