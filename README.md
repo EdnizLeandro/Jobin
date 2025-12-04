@@ -40,3 +40,5 @@ A plataforma será construída utilizando as seguintes tecnologias:
 - **Catálogo de cursos**: Acesso a uma variedade de conteúdos educacionais e materiais focados em empreendedorismo, habilidades profissionais e desenvolvimento pessoal.
 - **Oportunidades profissionais**: Plataforma para conectar jovens profissionais a oportunidades de emprego, ajudando-os a encontrar vagas e crescer no mercado de trabalho.
 - **Chat interativo**: Canal de comunicação entre contratantes e profissionais, permitindo a troca de informações importantes e o esclarecimento de dúvidas sobre os serviços.
+
+Site Jobin: https://github.com/EdnizLeandro/Jobin
