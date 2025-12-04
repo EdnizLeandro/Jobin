@@ -41,5 +41,5 @@ A plataforma será construída utilizando as seguintes tecnologias:
 - **Oportunidades profissionais**: Plataforma para conectar jovens profissionais a oportunidades de emprego, ajudando-os a encontrar vagas e crescer no mercado de trabalho.
 - **Chat interativo**: Canal de comunicação entre contratantes e profissionais, permitindo a troca de informações importantes e o esclarecimento de dúvidas sobre os serviços.
 
-Site Jobin: https://bit.ly/4pjDpxV
+Site Jobin: https://jobin-website.lumi.ing/
 
