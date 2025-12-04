@@ -1,4 +1,4 @@
-# 🟣 Jobin - Soluções Criativas para Jovens em Transformação
+corrija todo: # 🟣 Jobin - Soluções Criativas para Jovens em Transformação
 
 Uma plataforma digital criada por alunos da **UFRPE** em um projeto (Mundo 2) para apoiar jovens na retomada dos estudos, no desenvolvimento de habilidades e na entrada no mercado de trabalho por meio de ferramentas educacionais, oportunidades profissionais e soluções centradas no ser humano.
 
@@ -107,6 +107,8 @@ A plataforma conecta jovens a contratantes, capacitações, trilhas de estudo e 
 /public               # Arquivos estáticos
 .lumi                 # Documentação interna
 
+---
+
 
 ---
 
@@ -169,6 +171,8 @@ A plataforma conecta jovens a contratantes, capacitações, trilhas de estudo e 
 ---
 
 ## 🛠️ Como Rodar o Projeto Localmente
+
+
 
 # 1. Clone o repositório
 git clone https://github.com/seu-usuario/jobin.git
