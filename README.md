@@ -1,28 +1,34 @@
-# 🟣 Jobin - Soluções Criativas para Jovens em Transformação
+Aqui está o README formatado em **Markdown para GitHub**, exatamente como você pediu — e logo abaixo está **seu insight**.
 
-Uma plataforma digital criada por alunos da **UFRPE** para apoiar jovens na retomada dos estudos, no desenvolvimento de habilidades e na entrada no mercado de trabalho — por meio de ferramentas educacionais, oportunidades profissionais e soluções centradas no ser humano.
+---
+
+## 🟣 Jobin – Soluções Criativas para Jovens em Transformação
+
+Uma plataforma digital criada por alunos da UFRPE para apoiar jovens na retomada dos estudos, no desenvolvimento de habilidades e na entrada no mercado de trabalho, por meio de ferramentas educacionais, oportunidades profissionais e soluções centradas no ser humano.
 
 ---
 
 ## ✨ Resumo do Projeto
 
-O **Jobin** é uma plataforma web moderna, responsiva e inclusiva, projetada com **Design Centrado no Humano (HCD)** e pensada para jovens da **Região Metropolitana do Recife (RMR)**.  
-Seu objetivo é combater a inatividade juvenil oferecendo acesso a cursos, oportunidades de emprego, ferramentas de acompanhamento e suporte ao desenvolvimento pessoal e profissional.  
+O **Jobin** é uma plataforma web moderna, responsiva e inclusiva, projetada com **Design Centrado no Humano (HCD)** e desenvolvida especialmente para jovens da Região Metropolitana do Recife (RMR).
+
+Seu objetivo é combater a inatividade juvenil oferecendo acesso a cursos, oportunidades de emprego, ferramentas de acompanhamento e suporte ao desenvolvimento pessoal e profissional.
+
 A plataforma conecta jovens a contratantes, capacitações, trilhas de estudo e funcionalidades que estimulam autonomia e geração de renda local.
 
 ---
 
 ## 🎯 Objetivos da Plataforma
 
-- Capacitar jovens com cursos, treinamentos e trilhas de desenvolvimento.  
-- Conectar profissionais e contratantes, facilitando o acesso ao mercado.  
-- Acompanhar o progresso e evolução dos usuários.  
-- Criar um espaço interativo, intuitivo e motivador.  
-- Promover inclusão social e desenvolvimento regional.
+* Capacitar jovens com cursos, treinamentos e trilhas de desenvolvimento.
+* Conectar profissionais e contratantes, facilitando acesso ao mercado.
+* Acompanhar o progresso e evolução dos usuários.
+* Criar um espaço interativo, intuitivo e motivador.
+* Promover inclusão social e desenvolvimento regional.
 
 ---
 
-## 🌐 Site Oficial
+### 🌐 Site Oficial
 
 👉 [https://jobin-website.lumi.ing/](https://jobin-website.lumi.ing/)
 
@@ -31,72 +37,95 @@ A plataforma conecta jovens a contratantes, capacitações, trilhas de estudo e 
 ## 🚀 Funcionalidades Principais
 
 ### 🔐 Autenticação e Segurança
-- Login e logout com **Lumi Authentication System**  
-- Sessão com timeout automático (15 min)  
-- JWT, proteção de rotas, rate limiting e sanitização  
-- CSP Headers e HTTPS forçado  
+
+* Login e logout com **Lumi Authentication System**
+* Timeout automático (15 min)
+* JWT, proteção de rotas, rate limiting, sanitização
+* CSP Headers e HTTPS forçado
 
 ### 📊 Dashboard de Progresso
-- Acompanhamento de cursos e trilhas evolutivas  
-- Indicadores de avanço e metas pessoais  
+
+* Acompanhamento de cursos e trilhas evolutivas
+* Indicadores de avanço e metas pessoais
 
 ### 🎓 Catálogo de Capacitações
-- Cursos de:
-  - Empreendedorismo  
-  - Habilidades técnicas e sociais  
-  - Desenvolvimento pessoal e profissional  
+
+Cursos de:
+
+* Empreendedorismo
+* Habilidades técnicas e sociais
+* Desenvolvimento pessoal e profissional
 
 ### 💼 Oportunidades Profissionais
-- Conexão entre jovens e empresas contratantes  
-- Sistema de propostas, aceite e contratos  
+
+* Conexão entre jovens e contratantes
+* Sistema de propostas, aceite e contratos
 
 ### 💬 Chat Interativo *(em desenvolvimento)*
-- Comunicação entre profissionais e contratantes  
-- Troca de mensagens e informações sobre serviços  
+
+* Comunicação entre profissionais e contratantes
+* Troca de mensagens e informações
 
 ### 🏅 Gamificação
-- Pontos, badges, rankings e conquistas  
-- Engajamento e incentivo contínuo  
+
+* Pontos, badges, rankings e conquistas
+* Incentivo e engajamento constante
 
 ### 📈 Analytics do Mercado
-- Integração com **Streamlit Dashboard**  
-- **Novo CAGED** — análise atualizada do mercado da RMR  
+
+* Integração com **Streamlit Dashboard**
+* Dados do Novo CAGED da RMR
 
 ### 🔔 Notificações em Tempo Real
-- Alertas personalizados  
-- Atualizações de cursos, oportunidades e mensagens  
+
+* Alertas personalizados
+* Atualizações de cursos, oportunidades e mensagens
 
 ### 🧩 Acessibilidade
-- Ajuste de contraste  
-- Controle de tamanho de fonte  
-- Leitor de tela e navegação inclusiva  
+
+* Ajuste de contraste
+* Tamanho de fonte
+* Leitor de tela e navegação inclusiva
 
 ### 🛠️ Painel Administrativo (RBAC)
-- Gerenciamento completo de usuários  
-- Controle de conteúdo e permissões  
+
+* Gerenciamento completo de usuários
+* Controle de conteúdo e permissões
 
 ---
 
 ## 🧪 Tech Stack
 
-### Frontend
-- React + TypeScript *(strict mode)*  
-- Vite  
-- Tailwind CSS  
-- **Design System:**
-  - Material Design  
-  - Flat Design  
-  - Paleta: roxo | lilás | branco  
+### **Frontend**
 
-### Backend
-- Lumi SDK (Auth, MongoDB, File Upload, Email, Analytics)  
-- Streamlit Dashboard  
-- Integração com dados do **Novo CAGED**
+* React + TypeScript
+* Vite
+* Tailwind CSS
+* Design System:
+
+  * Material Design
+  * Flat Design
+  * Paleta: roxo | lilás | branco
+
+### **Backend**
+
+* **Lumi SDK**
+
+  * Auth
+  * MongoDB
+  * File Upload
+  * Email
+
+### **Analytics**
+
+* Streamlit Dashboard
+* Integração com Novo CAGED
 
 ---
 
 ## 📁 Estrutura do Projeto
 
+```
 /src
   /components         # Componentes reutilizáveis (Navbar, Footer, etc.)
   /pages              # Páginas (Home, Features, Analytics, etc.)
@@ -106,69 +135,85 @@ A plataforma conecta jovens a contratantes, capacitações, trilhas de estudo e 
   /entities           # Schemas JSON do banco
 /public               # Arquivos estáticos
 .lumi                 # Documentação interna
+```
 
 ---
 
 ## ✅ Funcionalidades Atuais
 
-- **🔐 Autenticação Completa**  
-  - `src/hooks/useAuth.ts`  
-  - `src/hooks/useSessionTimeout.ts`  
-  - `src/pages/Login.tsx`  
+### 🔐 Autenticação Completa
 
-- **👥 Perfis de Usuário (Profissional e Contratante)**  
-  - `src/pages/ProfessionalProfile.tsx`  
-  - `src/pages/ContractorProfile.tsx`  
+* src/hooks/useAuth.ts
+* src/hooks/useSessionTimeout.ts
+* src/pages/Login.tsx
 
-- **🎓 Sistema de Capacitações**  
-  - `src/pages/ExploreCapacitations.tsx`  
-  - `src/pages/MyCapacitations.tsx`  
+### 👥 Perfis de Usuário
 
-- **🏅 Gamificação**  
-  - `src/pages/Gamification.tsx`  
+* ProfessionalProfile.tsx
+* ContractorProfile.tsx
 
-- **📈 Analytics e Mercado da RMR**  
-  - `src/pages/Analytics.tsx`  
+### 🎓 Sistema de Capacitações
 
-- **📄 Gestão de Contratos**  
-  - `src/pages/ContractManagement.tsx`  
-  - `src/hooks/useContracts.ts`  
+* ExploreCapacitations.tsx
+* MyCapacitations.tsx
 
-- **💬 Sistema de Mensagens (em desenvolvimento)**  
-  - `src/pages/Messages.tsx`  
+### 🏅 Gamificação
 
-- **🔔 Notificações em Tempo Real**  
-  - `src/pages/Notifications.tsx`  
-  - `src/hooks/useNotifications.ts`  
+* Gamification.tsx
 
-- **🧩 Acessibilidade**  
-  - `src/pages/AccessibilitySettings.tsx`  
+### 📈 Analytics
 
-- **🛠️ Painel Administrativo (RBAC)**  
-  - `src/pages/AdminPanel.tsx`  
-  - `src/hooks/useAdminAuth.ts`  
+* Analytics.tsx
 
-- **📬 Contato e Newsletter**  
-  - `src/pages/Contact.tsx`  
-  - `src/hooks/useContactForm.ts`  
-  - `src/components/NewsletterSignup.tsx`  
-  - `src/hooks/useNewsletter.ts`  
+### 📄 Gestão de Contratos
 
-- **📱 Rastreamento de Downloads**  
-  - `src/hooks/useAppDownload.ts`  
+* ContractManagement.tsx
+* useContracts.ts
 
-- **🔒 Segurança Avançada**  
-  - `src/utils/security.ts`  
-  - `src/utils/rateLimiter.ts`  
+### 💬 Mensagens *(em desenvolvimento)*
 
-- **📱 Responsividade Total**
-  - *Mobile-first*  
-  - `src/index.css`
+* Messages.tsx
+
+### 🔔 Notificações
+
+* Notifications.tsx
+* useNotifications.ts
+
+### 🧩 Acessibilidade
+
+* AccessibilitySettings.tsx
+
+### 🛠️ Painel Administrativo (RBAC)
+
+* AdminPanel.tsx
+* useAdminAuth.ts
+
+### 📬 Contato e Newsletter
+
+* Contact.tsx
+* useContactForm.ts
+* NewsletterSignup.tsx
+* useNewsletter.ts
+
+### 📱 Rastreamento de Downloads
+
+* useAppDownload.ts
+
+### 🔒 Segurança Avançada
+
+* security.ts
+* rateLimiter.ts
+
+### 📱 Responsividade
+
+* Mobile-first
+* index.css
 
 ---
 
 ## 🛠️ Como Rodar o Projeto Localmente
 
+```bash
 # 1. Clone o repositório
 git clone https://github.com/seu-usuario/jobin.git
 
@@ -180,19 +225,29 @@ npm install
 
 # 4. Rode o projeto
 npm run dev
-
----
-
+```
 
 ---
 
 ## 📄 Licença
 
-Este projeto é distribuído sob a **Licença MIT**.  
-Sinta-se livre para usar, modificar e contribuir.
+Distribuído sob licença **MIT**.
 
 ---
 
 ## 💜 Desenvolvido com propósito para a juventude da RMR
 
-O **Jobin** é uma iniciativa que acredita no potencial transformador dos jovens e na tecnologia como ponte para o futuro.
+O Jobin acredita no potencial transformador da juventude e na tecnologia como ponte para o futuro.
+
+---
+
+# 🔮 **Seu Insight de Hoje**
+
+Você aparece aqui buscando clareza e estrutura — e mesmo ao pedir “só um README”, existe algo na maneira como você organiza informação que revela uma necessidade mais profunda: **quando você coloca ordem no mundo externo, na verdade você está tentando colocar ordem em algo interno que ainda não foi totalmente reconhecido.**
+
+### ✔️ **Desafio**
+
+Olhe para este README pronto e pergunte a si mesmo:
+**“O que exatamente neste projeto eu estou tentando resolver em mim?”**
+
+Responda quando estiver pronto.
