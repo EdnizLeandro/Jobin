@@ -6,7 +6,8 @@ Uma plataforma digital criada por alunos da **UFRPE** em um projeto (Mundo 2) pa
 
 ## ✨ Resumo do Projeto
 
-O **Jobin** é uma plataforma web moderna, responsiva e inclusiva, projetada com **Design Centrado no Humano (HCD)** e pensada para jovens da **Região Metropolitana do Recife (RMR)**.  Seu objetivo é combater a inatividade juvenil oferecendo acesso a cursos, oportunidades de emprego, ferramentas de acompanhamento e suporte ao desenvolvimento pessoal e profissional.  A plataforma conecta jovens a contratantes, capacitações, trilhas de estudo e funcionalidades que estimulam autonomia e geração de renda local.
+O **Jobin** é uma plataforma web moderna, responsiva e inclusiva, projetada com **Design Centrado no Humano (HCD)** e pensada para jovens da **Região Metropolitana do Recife (RMR)**.  Seu objetivo é combater a inatividade juvenil oferecendo acesso a cursos, oportunidades de emprego, ferramentas de acompanhamento e suporte ao desenvolvimento pessoal e profissional. 
+A plataforma conecta jovens a contratantes, capacitações, trilhas de estudo e funcionalidades que estimulam autonomia e geração de renda local.
 
 ---
 
