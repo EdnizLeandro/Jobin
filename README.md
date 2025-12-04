@@ -91,7 +91,7 @@ A plataforma conecta jovens a contratantes, capacitações, trilhas de estudo e 
 ### Backend
 - Lumi SDK (Auth, MongoDB, File Upload, Email, Analytics)  
 - Streamlit Dashboard  
-- Integração com dados do **Novo CAGED**
+- Com dados do **Novo CAGED**
 
 ---
 
