@@ -14,82 +14,67 @@ Site Oficial: https://jobin-website.lumi.ing/
 
 🎯 Objetivos da Plataforma
 
-•	Capacitar jovens com cursos, treinamentos e trilhas de desenvolvimento.
-•	Conectar profissionais e contratantes, facilitando acesso ao mercado.
-•	Acompanhar o progresso e evolução dos usuários.
-•	Criar um espaço interativo, intuitivo e motivador.
-•	Promover inclusão social e desenvolvimento regional.
-.
+Capacitar jovens com cursos, treinamentos e trilhas de desenvolvimento.
+Conectar profissionais e contratantes, facilitando acesso ao mercado.
+Acompanhar o progresso e evolução dos usuários.
+Criar um espaço interativo, intuitivo e motivador.
+Promover inclusão social e desenvolvimento regional..
 
 🚀 Funcionalidades Principais
+
 🔐 Autenticação e Segurança
-
 Login e logout com Lumi Authentication System
-
 Sessão com timeout automático (30 min)
-
 JWT, proteção de rotas, rate limiting e sanitização
-
 CSP Headers e HTTPS forçado
 
 📊 Dashboard de Progresso
 
 Acompanhamento de cursos e trilhas evolutivas
-
 Indicadores de avanço e metas pessoais
 
 🎓 Catálogo de Capacitações
 
 Cursos de:
 
-Empreendedorismo
-
 Habilidades técnicas e sociais
-
 Desenvolvimento pessoal e profissional
 
 💼 Oportunidades Profissionais
 
 Conexão entre jovens e empresas contratantes
-
 Sistema de propostas, aceite e contratos
 
 💬 Chat Interativo (em desenvolvimento)
 
 Comunicação entre profissionais e contratantes
-
 Troca de mensagens e informações sobre serviços
 
 🏅 Gamificação
 
 Pontos, badges, rankings e conquistas
-
 Engajamento e incentivo contínuo
 
 📈 Analytics do Mercado
 
 Integração com Streamlit Dashboard
-
-Novo CAGED - análise atualizada do mercado da RMR
+Novo CAGED - análise atualizada do mercado de trabalho
 
 🔔 Notificações em Tempo Real
 
-Alertas personalizados
+Alertas:
 
 Atualizações de cursos, oportunidades e mensagens
 
 🧩 Acessibilidade
 
 Ajuste de contraste
-
 Tamanho de fonte
-
 Leitor de tela e navegação inclusiva
 
 🛠️ Painel Administrativo (RBAC)
 
 Gerenciamento completo de usuários
-
 Controle de conteúdo e permissões
 
 🧪 Tech Stack
