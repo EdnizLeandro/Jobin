@@ -1,7 +1,7 @@
 🟣 Jobin - Soluções Criativas para Jovens em Transformação
 
 Uma plataforma digital criada por alunos da UFRPE no projeto Mundo 2, com o objetivo de apoiar jovens na retomada dos estudos, no desenvolvimento de habilidades e na entrada no mercado de trabalho, por meio de ferramentas educacionais, oportunidades profissionais e soluções centradas no ser humano.
-
+---
 ✨ Resumo do Projeto
 
 O Jobin é uma plataforma web moderna, responsiva e inclusiva, projetada com Design Centrado no Humano (HCD) e pensada para jovens da Região Metropolitana do Recife (RMR). Seu objetivo é combater a inatividade juvenil oferecendo acesso a cursos, oportunidades de emprego, ferramentas de acompanhamento e suporte ao desenvolvimento pessoal e profissional.
