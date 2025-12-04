@@ -1,6 +1,6 @@
 
 
-## 🟣 Jobin - Solução Criativa para Jovens em Transformação na RMR
+## 🟣 Jobin - Solução Criativa para Jovens em Transformação da RMR
 
 Uma plataforma digital criada por alunos da UFRPE para o projeto (Mundo 2), apoiar jovens na retomada dos estudos, no desenvolvimento de habilidades e na entrada no mercado de trabalho, por meio de ferramentas educacionais, oportunidades profissionais e soluções centradas no ser humano.
 
