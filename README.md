@@ -235,6 +235,6 @@ Distribuído sob licença **MIT**.
 
 ## 💜 Desenvolvido com propósito para a juventude da RMR
 
-O Jobin acredita no potencial transformador da juventude e na tecnologia como ponte para o futuro.
+O Projeto **Jobin** acredita no potencial transformador da juventude e na tecnologia como ponte para o futuro.
 
 ---
