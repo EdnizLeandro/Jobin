@@ -99,16 +99,13 @@ A plataforma conecta jovens a contratantes, capacitações, trilhas de estudo e 
 
 /src
   /components         # Componentes reutilizáveis (Navbar, Footer, etc.)
-  /pages              # Páginas da aplicação (Home, Analytics, Features...)
+  /pages              # Páginas (Home, Features, Analytics, etc.)
   /hooks              # Custom hooks (useAuth, useContracts, etc.)
-  /utils              # Segurança, sanitização, rate limiter
+  /utils              # Segurança, rate limiter, sanitização
   /lib                # Configuração do cliente Lumi SDK
-  /entities           # Schemas e tipos das entidades do banco
+  /entities           # Schemas JSON do banco
 /public               # Arquivos estáticos
-.lumi                 # Documentação interna do projeto
-
----
-
+.lumi                 # Documentação interna
 
 ---
 
