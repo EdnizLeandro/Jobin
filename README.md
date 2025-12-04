@@ -14,15 +14,12 @@ Site Oficial: https://jobin-website.lumi.ing/
 
 🎯 Objetivos da Plataforma
 
-Capacitar jovens com cursos, treinamentos e trilhas de desenvolvimento.
-
-Conectar profissionais e contratantes, facilitando acesso ao mercado.
-
-Acompanhar o progresso e evolução dos usuários.
-
-Criar um espaço interativo, intuitivo e motivador.
-
-Promover inclusão social e desenvolvimento regional.
+•	Capacitar jovens com cursos, treinamentos e trilhas de desenvolvimento.
+•	Conectar profissionais e contratantes, facilitando acesso ao mercado.
+•	Acompanhar o progresso e evolução dos usuários.
+•	Criar um espaço interativo, intuitivo e motivador.
+•	Promover inclusão social e desenvolvimento regional.
+.
 
 🚀 Funcionalidades Principais
 🔐 Autenticação e Segurança
