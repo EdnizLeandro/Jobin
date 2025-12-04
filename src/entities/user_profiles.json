@@ -1,0 +1,100 @@
+
+{
+  "name": "user_profiles",
+  "options": {
+    "validator": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": ["user_type", "full_name", "email", "phone", "createdAt"],
+        "properties": {
+          "user_type": {
+            "bsonType": "string",
+            "enum": ["professional", "contractor"],
+            "description": "Tipo de usuário: profissional ou contratante"
+          },
+          "full_name": {
+            "bsonType": "string",
+            "description": "Nome completo do usuário"
+          },
+          "email": {
+            "bsonType": "string",
+            "description": "Email do usuário"
+          },
+          "phone": {
+            "bsonType": "string",
+            "description": "Telefone do usuário"
+          },
+          "location": {
+            "bsonType": "string",
+            "description": "Localização do usuário"
+          },
+          "photo_url": {
+            "bsonType": "string",
+            "description": "URL da foto de perfil"
+          },
+          "professional_data": {
+            "bsonType": "object",
+            "description": "Dados específicos para profissionais",
+            "properties": {
+              "area_of_expertise": {
+                "bsonType": "string",
+                "description": "Área de atuação"
+              },
+              "experience": {
+                "bsonType": "string",
+                "description": "Nível de experiência"
+              },
+              "certifications": {
+                "bsonType": "array",
+                "description": "Lista de certificações"
+              },
+              "rating": {
+                "bsonType": "number",
+                "description": "Avaliação média"
+              },
+              "completed_contracts": {
+                "bsonType": "int",
+                "description": "Número de contratos concluídos"
+              }
+            }
+          },
+          "contractor_data": {
+            "bsonType": "object",
+            "description": "Dados específicos para contratantes",
+            "properties": {
+              "company_name": {
+                "bsonType": "string",
+                "description": "Nome da empresa"
+              },
+              "cnpj_cpf": {
+                "bsonType": "string",
+                "description": "CNPJ ou CPF"
+              },
+              "sector": {
+                "bsonType": "string",
+                "description": "Setor de atuação"
+              },
+              "total_contracts": {
+                "bsonType": "int",
+                "description": "Total de contratos criados"
+              }
+            }
+          },
+          "createdAt": {
+            "bsonType": "string",
+            "title": "datetime",
+            "description": "Data de criação do perfil"
+          },
+          "updatedAt": {
+            "bsonType": "string",
+            "title": "datetime",
+            "description": "Data de última atualização"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "validationLevel": "moderate",
+    "validationAction": "warn"
+  }
+}

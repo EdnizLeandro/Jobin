@@ -1,0 +1,54 @@
+
+{
+  "name": "contacts",
+  "options": {
+    "validator": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": ["name", "email", "message", "createdAt"],
+        "properties": {
+          "name": {
+            "bsonType": "string",
+            "minLength": 2,
+            "maxLength": 100,
+            "description": "Nome completo do contato"
+          },
+          "email": {
+            "bsonType": "string",
+            "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+            "description": "Email válido do contato"
+          },
+          "subject": {
+            "bsonType": "string",
+            "enum": ["parceria", "suporte", "feedback", "imprensa", "outro"],
+            "description": "Assunto da mensagem"
+          },
+          "message": {
+            "bsonType": "string",
+            "minLength": 10,
+            "maxLength": 1000,
+            "description": "Mensagem do contato"
+          },
+          "status": {
+            "bsonType": "string",
+            "enum": ["nova", "lida", "respondida"],
+            "description": "Status da mensagem"
+          },
+          "createdAt": {
+            "bsonType": "string",
+            "title": "datetime",
+            "description": "Data de criação da mensagem"
+          },
+          "updatedAt": {
+            "bsonType": "string",
+            "title": "datetime",
+            "description": "Data de atualização da mensagem"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "validationLevel": "moderate",
+    "validationAction": "warn"
+  }
+}

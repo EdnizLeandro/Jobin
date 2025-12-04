@@ -1,0 +1,49 @@
+
+{
+  "name": "newsletter",
+  "options": {
+    "validator": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": ["email", "isActive", "createdAt"],
+        "properties": {
+          "email": {
+            "bsonType": "string",
+            "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+            "description": "Email único para newsletter"
+          },
+          "name": {
+            "bsonType": "string",
+            "description": "Nome opcional do inscrito"
+          },
+          "isActive": {
+            "bsonType": "bool",
+            "description": "Status da inscrição"
+          },
+          "source": {
+            "bsonType": "string",
+            "enum": ["website", "app", "social", "evento"],
+            "description": "Origem da inscrição"
+          },
+          "preferences": {
+            "bsonType": "object",
+            "description": "Preferências de comunicação"
+          },
+          "createdAt": {
+            "bsonType": "string",
+            "title": "datetime",
+            "description": "Data de inscrição"
+          },
+          "updatedAt": {
+            "bsonType": "string",
+            "title": "datetime",
+            "description": "Data de atualização"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "validationLevel": "moderate",
+    "validationAction": "warn"
+  }
+}

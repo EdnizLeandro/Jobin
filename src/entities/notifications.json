@@ -1,0 +1,51 @@
+
+{
+  "name": "notifications",
+  "options": {
+    "validator": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": ["user_id", "title", "message", "type", "is_read", "createdAt"],
+        "properties": {
+          "user_id": {
+            "bsonType": "string",
+            "description": "ID do usuário destinatário"
+          },
+          "title": {
+            "bsonType": "string",
+            "description": "Título da notificação"
+          },
+          "message": {
+            "bsonType": "string",
+            "description": "Mensagem da notificação"
+          },
+          "type": {
+            "bsonType": "string",
+            "enum": ["contract", "capacitation", "system", "reminder"],
+            "description": "Tipo da notificação"
+          },
+          "is_read": {
+            "bsonType": "bool",
+            "description": "Se a notificação foi lida"
+          },
+          "related_id": {
+            "bsonType": "string",
+            "description": "ID do item relacionado (contrato, capacitação, etc.)"
+          },
+          "action_url": {
+            "bsonType": "string",
+            "description": "URL para ação relacionada"
+          },
+          "createdAt": {
+            "bsonType": "string",
+            "title": "datetime",
+            "description": "Data de criação"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "validationLevel": "moderate",
+    "validationAction": "warn"
+  }
+}

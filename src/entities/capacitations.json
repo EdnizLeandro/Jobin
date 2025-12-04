@@ -1,0 +1,67 @@
+
+{
+  "name": "capacitations",
+  "options": {
+    "validator": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": ["title", "description", "category", "level", "duration", "is_active", "createdAt"],
+        "properties": {
+          "title": {
+            "bsonType": "string",
+            "description": "Título da capacitação"
+          },
+          "description": {
+            "bsonType": "string",
+            "description": "Descrição detalhada"
+          },
+          "category": {
+            "bsonType": "string",
+            "enum": ["Design Gráfico", "Desenvolvimento Web", "Marketing Digital", "Redação", "Fotografia", "Consultoria", "Educação", "Outros"],
+            "description": "Categoria da capacitação"
+          },
+          "level": {
+            "bsonType": "string",
+            "enum": ["Iniciante", "Intermediário", "Avançado"],
+            "description": "Nível de dificuldade"
+          },
+          "duration": {
+            "bsonType": "int",
+            "minimum": 1,
+            "description": "Duração em horas"
+          },
+          "instructor": {
+            "bsonType": "string",
+            "description": "Nome do instrutor"
+          },
+          "image_url": {
+            "bsonType": "string",
+            "description": "URL da imagem da capacitação"
+          },
+          "is_active": {
+            "bsonType": "bool",
+            "description": "Se a capacitação está ativa"
+          },
+          "enrollment_count": {
+            "bsonType": "int",
+            "minimum": 0,
+            "description": "Número de inscrições"
+          },
+          "createdAt": {
+            "bsonType": "string",
+            "title": "datetime",
+            "description": "Data de criação"
+          },
+          "updatedAt": {
+            "bsonType": "string",
+            "title": "datetime",
+            "description": "Data de atualização"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "validationLevel": "moderate",
+    "validationAction": "warn"
+  }
+}

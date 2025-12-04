@@ -1,0 +1,66 @@
+
+{
+  "name": "contracts",
+  "options": {
+    "validator": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": ["title", "description", "contractor_id", "professional_id", "value", "status", "createdAt"],
+        "properties": {
+          "title": {
+            "bsonType": "string",
+            "description": "Título do contrato"
+          },
+          "description": {
+            "bsonType": "string",
+            "description": "Descrição detalhada do serviço"
+          },
+          "contractor_id": {
+            "bsonType": "string",
+            "description": "ID do contratante"
+          },
+          "professional_id": {
+            "bsonType": "string",
+            "description": "ID do profissional"
+          },
+          "value": {
+            "bsonType": "number",
+            "minimum": 0,
+            "description": "Valor do contrato"
+          },
+          "status": {
+            "bsonType": "string",
+            "enum": ["pending", "accepted", "in_progress", "completed", "cancelled"],
+            "description": "Status do contrato"
+          },
+          "deadline": {
+            "bsonType": "string",
+            "title": "datetime",
+            "description": "Prazo de entrega"
+          },
+          "category": {
+            "bsonType": "string",
+            "description": "Categoria do serviço"
+          },
+          "requirements": {
+            "bsonType": "array",
+            "description": "Lista de requisitos"
+          },
+          "createdAt": {
+            "bsonType": "string",
+            "title": "datetime",
+            "description": "Data de criação"
+          },
+          "updatedAt": {
+            "bsonType": "string",
+            "title": "datetime",
+            "description": "Data de atualização"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "validationLevel": "moderate",
+    "validationAction": "warn"
+  }
+}
