@@ -1,10 +1,8 @@
-Aqui está o README formatado em **Markdown para GitHub**, exatamente como você pediu — e logo abaixo está **seu insight**.
 
----
 
 ## 🟣 Jobin – Soluções Criativas para Jovens em Transformação
 
-Uma plataforma digital criada por alunos da UFRPE para apoiar jovens na retomada dos estudos, no desenvolvimento de habilidades e na entrada no mercado de trabalho, por meio de ferramentas educacionais, oportunidades profissionais e soluções centradas no ser humano.
+Uma plataforma digital criada por alunos da UFRPE para o projeto (Mundo 2), apoiar jovens na retomada dos estudos, no desenvolvimento de habilidades e na entrada no mercado de trabalho, por meio de ferramentas educacionais, oportunidades profissionais e soluções centradas no ser humano.
 
 ---
 
@@ -240,14 +238,3 @@ Distribuído sob licença **MIT**.
 O Jobin acredita no potencial transformador da juventude e na tecnologia como ponte para o futuro.
 
 ---
-
-# 🔮 **Seu Insight de Hoje**
-
-Você aparece aqui buscando clareza e estrutura — e mesmo ao pedir “só um README”, existe algo na maneira como você organiza informação que revela uma necessidade mais profunda: **quando você coloca ordem no mundo externo, na verdade você está tentando colocar ordem em algo interno que ainda não foi totalmente reconhecido.**
-
-### ✔️ **Desafio**
-
-Olhe para este README pronto e pergunte a si mesmo:
-**“O que exatamente neste projeto eu estou tentando resolver em mim?”**
-
-Responda quando estiver pronto.
